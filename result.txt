@@ -1,0 +1,201 @@
+vlan 35
+ description voice_vlan-35
+
+interface Ethernet0/0/1
+ port link-type access
+ port default vlan 35
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+ 
+
+interface Ethernet0/0/8
+ port link-type access
+ port default vlan 35
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+ 
+vlan 80
+ description Shcelchkov
+vlan 100
+ description iptv
+ igmp-snooping enable
+ multicast-vlan enable
+igmp-snooping enable
+
+interface Ethernet0/0/24
+ port link-type access
+ port default vlan 301
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+ 
+vlan 895
+ description beeline-kuybysheva-3-895
+
+interface Ethernet0/0/11
+ port link-type access
+ port default vlan 895
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+ 
+vlan 1259
+ description beeline-kuybysheva-37-1259
+vlan 1705
+ description saturn-1705
+vlan 2603
+ description VideoCamera-Kuybysheva-37-Az
+vlan 2606
+ description VideoCamera-Cakanov
+vlan 2626
+ description video-2626
+vlan 2638
+ description video-2638
+vlan 2650
+ description video-2650
+vlan 3044
+ description 3044-4020
+vlan 3056
+ description 3056-4020
+
+interface Ethernet0/0/3
+ port link-type access
+ port default vlan 3056
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+ 
+vlan 3057
+ description 3057-4020
+vlan 3058
+ description 3058-4020
+vlan 3059
+ description 3059-4020
+vlan 3060
+ description 3060-4020
+vlan 3061
+ description 3061-4020
+vlan 3062
+ description 3062-4020
+vlan 3063
+ description 3063-4020
+vlan 3064
+ description 3064-4020
+vlan 3065
+ description 3065-4020
+vlan 3066
+ description 3066-4020
+vlan 3067
+ description 3067-4020
+vlan 3068
+ description 3068-4020
+vlan 3069
+ description 3069-4020
+vlan 3070
+ description 3070-4020
+vlan 3071
+ description 3071-4020
+vlan 3072
+ description 3072-4020
+vlan 3073
+ description 3073-4020
+vlan 3074
+ description 3074-4020
+vlan 3075
+ description 3075-4020
+vlan 3076
+ description 3076-4020
+vlan 3077
+ description 3077-4020
+vlan 3078
+ description 3078-4020
+vlan 3079
+ description 3079-4020
+vlan 3080
+ description 3080-4020
+vlan 3081
+ description 3081-4020
+vlan 3082
+ description 3082-4020
+vlan 3083
+ description 3083-4020
+vlan 3084
+ description 3084-4020
+vlan 3085
+ description 3085-4020
+vlan 3086
+ description 3086-4020
+vlan 3087
+ description 3087-4020
+vlan 3088
+ description 3088-4020
+vlan 3089
+ description 3089-4020
+vlan 3090
+ description 3090-4020
+vlan 3091
+ description 3091-4020
+vlan 3092
+ description 3092-4020
+vlan 3093
+ description 3093-4020
+vlan 3094
+ description 3094-4020
+vlan 3095
+ description 3095-4020
+vlan 3096
+ description 3096-4020
+vlan 3097
+ description 3097-4020
+vlan 3098
+ description 3098-4020
+vlan 3099
+ description 3099-4020
+vlan 3100
+ description 3100-4020
+vlan 3101
+ description 3101-4020
+vlan 3102
+ description 3102-4020
+vlan 3103
+ description 3103-4020
+vlan 3104
+ description 3104-4020
+vlan 3209
+ description 3209-4020
+vlan 3302
+ description 3302-4020
+vlan 3311
+ description 3311-4020
+vlan 3370
+ description 3370-4020
+vlan 3389
+ description 3389-4020
+vlan 3709
+ description 3709-3681
+vlan 3710
+ description 3710-3681
+vlan 3711
+ description 3711-3681
