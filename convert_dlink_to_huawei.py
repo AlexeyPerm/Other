@@ -1,6 +1,6 @@
-###в процессе написания
-###в процессе написания
-###в процессе написания
+# в процессе написания
+# в процессе написания
+# в процессе написания
 
 import ipaddress
 
@@ -28,8 +28,8 @@ while True:
     else:
         break
 
-# intf_uplink = input('Введите uplink: ')  # Вводится имя uplink-интерфейса
-# systemname = ('\nsysname ' + (input('Введите sysname:  ')))
+intf_uplink = input('Введите uplink: ')  # Вводится имя uplink-интерфейса
+systemname = ('\nsysname ' + (input('Введите sysname:  ')))
 vlan_tags = []
 
 
@@ -87,6 +87,25 @@ def access(intf_number, vlan_number):
     return access_template
 
 
+def other(other_data):
+    other_conf = (f"\nsysname {other_data}\n"
+                  "\nclock timezone prm add 05:00:00\n"
+                  "ntp-service server disable\n"
+                  "ntp-service ipv6 server disable\n"
+                  "ntp-service unicast-server 192.168.2.94\n"
+                  "undo ip route-static 0.0.0.0 0.0.0.0 192.168.200.9\n")
+    return other_conf
+
+
+def trunk(vlan_number, trunk_intf):
+    trunk_template = ('\n'
+                      f'interface {trunk_intf}\n'
+                      f' description uplink\n'
+                      f' port link-type trunk\n'
+                      f'{vlan_number}')
+    return trunk_template
+
+
 with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
     for line in data:
         if line.startswith('create'):
@@ -108,3 +127,6 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
                     dst.write(access(numbers, tag))
             else:
                 dst.write(access(int_number, tag))
+        elif 'tagged' in line:
+            int_number = line.strip().split(' ')[-1]
+            
