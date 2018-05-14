@@ -24,7 +24,7 @@ while True:
             print('Влан должен быть в диапазоне от 2 до 4096')
             man_vlan = int((input('Введите номер VLAN ещё раз: ')))
     except ValueError:
-        print('vlan должен быть числом')
+        print('VLAN должен быть числом')
     else:
         break
 
@@ -34,13 +34,13 @@ vlan_tags = []
 
 
 def vlans_list(vlan_number, descr):
-    result = (f"vlan {vlan_number}\n"
+    result = (f"\nvlan {vlan_number}\n"
               f" description {descr}\n")
     return result
 
 
 def multicast(vlan_number, descr):
-    multicast_template = (f"vlan {vlan_number}\n"
+    multicast_template = (f"\nvlan {vlan_number}\n"
                           f" description {descr}\n"
                           f" igmp-snooping enable\n"
                           f" multicast-vlan enable\n"
@@ -82,8 +82,7 @@ def access(intf_number, vlan_number):
                        ' storm-control broadcast min-rate 500 max-rate 500\n'
                        ' storm-control multicast min-rate 500 max-rate 500\n'
                        ' storm-control action error-down\n'
-                       ' storm-control enable log\n'
-                       ' \n')
+                       ' storm-control enable log\n')
     return access_template
 
 
@@ -97,12 +96,11 @@ def other(other_data):
     return other_conf
 
 
-def trunk(vlan_number, trunk_intf):
+def trunk(trunk_intf, vlans):
     trunk_template = ('\n'
-                      f'interface {trunk_intf}\n'
-                      f' description uplink\n'
+                      f'interface Ethernet0/0/{trunk_intf}\n'
                       f' port link-type trunk\n'
-                      f'{vlan_number}')
+                      f'port trunk allow-pass vlan {vlans}\n')
     return trunk_template
 
 
@@ -113,13 +111,17 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
             tag = line_split[-1]
             vlan_tags.append(tag)
             description = line_split[2]
-            if not int(tag) == man_vlan:
-                if not (int(tag) == 100 or int(tag) == 10):
-                    dst.write(vlans_list(tag, description))
-                else:
-                    dst.write(multicast(tag, description))
+            if not (int(tag) == 100 or int(tag) == 10):
+                dst.write(vlans_list(tag, description))
             else:
-                continue
+                dst.write(multicast(tag, description))
+            # if not int(tag) == man_vlan:
+            #     if not (int(tag) == 100 or int(tag) == 10):
+            #         dst.write(vlans_list(tag, description))
+            #     else:
+            #         dst.write(multicast(tag, description))
+            # else:
+            #     continue
         elif 'untagged' in line:
             int_number = line.strip().split(' ')[-1]
             if ',' in int_number:
@@ -129,4 +131,8 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
                 dst.write(access(int_number, tag))
         elif 'tagged' in line:
             int_number = line.strip().split(' ')[-1]
-            
+            if ',' in int_number:
+                for numbers in int_number.split(','):
+                    dst.write(trunk(numbers, tag))
+            else:
+                dst.write(trunk(int_number, tag))
