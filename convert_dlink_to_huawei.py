@@ -1,7 +1,6 @@
-# в процессе написания
-# в процессе написания
-# в процессе написания
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Python 3.6.5+
 import ipaddress
 
 while True:
@@ -87,7 +86,7 @@ def access(intf_number, vlan_number):
 
 
 def other(other_data):
-    other_conf = (f"\nsysname {other_data}\n"
+    other_conf = (f"{other_data}\n"
                   "\nclock timezone prm add 05:00:00\n"
                   "ntp-service server disable\n"
                   "ntp-service ipv6 server disable\n"
@@ -115,13 +114,6 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
                 dst.write(vlans_list(tag, description))
             else:
                 dst.write(multicast(tag, description))
-            # if not int(tag) == man_vlan:
-            #     if not (int(tag) == 100 or int(tag) == 10):
-            #         dst.write(vlans_list(tag, description))
-            #     else:
-            #         dst.write(multicast(tag, description))
-            # else:
-            #     continue
         elif 'untagged' in line:
             int_number = line.strip().split(' ')[-1]
             if ',' in int_number:
@@ -136,3 +128,5 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
                     dst.write(trunk(numbers, tag))
             else:
                 dst.write(trunk(int_number, tag))
+    dst.write(manage(man_vlan, ip, prefix, gateway))
+    dst.write(other(systemname))
