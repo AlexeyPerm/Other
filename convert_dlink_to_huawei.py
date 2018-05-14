@@ -115,14 +115,14 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
             else:
                 dst.write(multicast(tag, description))
         elif 'untagged' in line:
-            int_number = line.strip().split(' ')[-1]
+            int_number = line.strip().split(' ')[5]
             if ',' in int_number:
                 for numbers in int_number.split(','):
                     dst.write(access(numbers, tag))
             else:
                 dst.write(access(int_number, tag))
         elif 'tagged' in line:
-            int_number = line.strip().split(' ')[-1]
+            int_number = line.strip().split(' ')[5]
             if ',' in int_number:
                 for numbers in int_number.split(','):
                     dst.write(trunk(numbers, tag))
