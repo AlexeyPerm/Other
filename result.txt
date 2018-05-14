@@ -1,22 +1,213 @@
 
-vlan 35
- description voice_vlan-35
+vlan 4
+ description Uprava_4
 
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 35
+vlan 300
+ description Uprava_300
 
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 35
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 300
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
 
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 35
+interface Ethernet0/0/10
+ port link-type access
+ port default vlan 300
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3143
+ description 3143-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3143
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
 
 interface Ethernet0/0/1
  port link-type access
- port default vlan 35
+ port default vlan 3143
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3150
+ description 3150-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3150
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+interface Ethernet0/0/2
+ port link-type access
+ port default vlan 3150
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3151
+ description 3151-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3151
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+interface Ethernet0/0/3
+ port link-type access
+ port default vlan 3151
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3154
+ description 3154-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3154
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+interface Ethernet0/0/4
+ port link-type access
+ port default vlan 3154
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3176
+ description 3176-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3176
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+interface Ethernet0/0/5
+ port link-type access
+ port default vlan 3176
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3246
+ description 3246-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3246
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+interface Ethernet0/0/6
+ port link-type access
+ port default vlan 3246
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3384
+ description 3384-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3384
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+interface Ethernet0/0/7
+ port link-type access
+ port default vlan 3384
+ loopback-detect recovery-time 300
+ loopback-detect enable
+ bpdu disable
+ storm-control broadcast min-rate 500 max-rate 500
+ storm-control multicast min-rate 500 max-rate 500
+ storm-control action error-down
+ storm-control enable log
+
+vlan 3461
+ description 3461-4000
+
+interface Ethernet0/0/9
+ port link-type access
+ port default vlan 3461
  loopback-detect recovery-time 300
  loopback-detect enable
  bpdu disable
@@ -27,7 +218,7 @@ interface Ethernet0/0/1
 
 interface Ethernet0/0/8
  port link-type access
- port default vlan 35
+ port default vlan 3461
  loopback-detect recovery-time 300
  loopback-detect enable
  bpdu disable
@@ -36,806 +227,19 @@ interface Ethernet0/0/8
  storm-control action error-down
  storm-control enable log
 
-vlan 80
- description Shcelchkov
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 80
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 80
-
-vlan 100
- description iptv
- igmp-snooping enable
- multicast-vlan enable
-igmp-snooping enable
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 100
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 100
-
-vlan 301
- description Uprava
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 301
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 301
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 301
-
-interface Ethernet0/0/24
- port link-type access
- port default vlan 301
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
-
-vlan 895
- description beeline-kuybysheva-3-895
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 895
-
-interface Ethernet0/0/11
- port link-type access
- port default vlan 895
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
-
-vlan 1259
- description beeline-kuybysheva-37-1259
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 1259
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 1259
-
-vlan 1705
- description saturn-1705
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 1705
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 1705
-
-vlan 2603
- description VideoCamera-Kuybysheva-37-Az
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 2603
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 2603
-
-vlan 2606
- description VideoCamera-Cakanov
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 2606
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 2606
-
-vlan 2626
- description video-2626
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 2626
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 2626
-
-vlan 2638
- description video-2638
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 2638
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 2638
-
-vlan 2650
- description video-2650
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 2650
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 2650
-
-vlan 3044
- description 3044-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3044
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3044
-
-vlan 3056
- description 3056-4020
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3056
-
-interface Ethernet0/0/3
- port link-type access
- port default vlan 3056
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
-
-vlan 3057
- description 3057-4020
-
-interface Ethernet0/0/2
- port link-type trunk
-port trunk allow-pass vlan 3057
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3057
-
-vlan 3058
- description 3058-4020
-
-interface Ethernet0/0/6
- port link-type trunk
-port trunk allow-pass vlan 3058
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3058
-
-vlan 3059
- description 3059-4020
-
-interface Ethernet0/0/7
- port link-type trunk
-port trunk allow-pass vlan 3059
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3059
-
-vlan 3060
- description 3060-4020
-
-interface Ethernet0/0/10
- port link-type trunk
-port trunk allow-pass vlan 3060
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3060
-
-vlan 3061
- description 3061-4020
-
-interface Ethernet0/0/13
- port link-type trunk
-port trunk allow-pass vlan 3061
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3061
-
-vlan 3062
- description 3062-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3062
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3062
-
-vlan 3063
- description 3063-4020
-
-interface Ethernet0/0/14
- port link-type trunk
-port trunk allow-pass vlan 3063
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3063
-
-vlan 3064
- description 3064-4020
-
-interface Ethernet0/0/15
- port link-type trunk
-port trunk allow-pass vlan 3064
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3064
-
-vlan 3065
- description 3065-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3065
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3065
-
-vlan 3066
- description 3066-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3066
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3066
-
-vlan 3067
- description 3067-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3067
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3067
-
-vlan 3068
- description 3068-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3068
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3068
-
-vlan 3069
- description 3069-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3069
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3069
-
-vlan 3070
- description 3070-4020
-
-interface Ethernet0/0/16
- port link-type trunk
-port trunk allow-pass vlan 3070
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3070
-
-vlan 3071
- description 3071-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3071
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3071
-
-vlan 3072
- description 3072-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3072
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3072
-
-vlan 3073
- description 3073-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3073
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3073
-
-vlan 3074
- description 3074-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3074
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3074
-
-vlan 3075
- description 3075-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3075
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3075
-
-vlan 3076
- description 3076-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3076
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3076
-
-vlan 3077
- description 3077-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3077
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3077
-
-vlan 3078
- description 3078-4020
-
-interface Ethernet0/0/5
+interface fa0/2
+ description uplink
  port link-type trunk
-port trunk allow-pass vlan 3078
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3078
-
-vlan 3079
- description 3079-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3079
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3079
-
-vlan 3080
- description 3080-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3080
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3080
-
-vlan 3081
- description 3081-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3081
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3081
-
-vlan 3082
- description 3082-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3082
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3082
-
-vlan 3083
- description 3083-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3083
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3083
-
-vlan 3084
- description 3084-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3084
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3084
-
-vlan 3085
- description 3085-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3085
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3085
-
-vlan 3086
- description 3086-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3086
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3086
-
-vlan 3087
- description 3087-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3087
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3087
-
-vlan 3088
- description 3088-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3088
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3088
-
-vlan 3089
- description 3089-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3089
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3089
-
-vlan 3090
- description 3090-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3090
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3090
-
-vlan 3091
- description 3091-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3091
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3091
-
-vlan 3092
- description 3092-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3092
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3092
-
-vlan 3093
- description 3093-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3093
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3093
-
-vlan 3094
- description 3094-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3094
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3094
-
-vlan 3095
- description 3095-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3095
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3095
-
-vlan 3096
- description 3096-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3096
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3096
-
-vlan 3097
- description 3097-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3097
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3097
-
-vlan 3098
- description 3098-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3098
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3098
-
-vlan 3099
- description 3099-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3099
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3099
-
-vlan 3100
- description 3100-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3100
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3100
-
-vlan 3101
- description 3101-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3101
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3101
-
-vlan 3102
- description 3102-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3102
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3102
-
-vlan 3103
- description 3103-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3103
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3103
-
-vlan 3104
- description 3104-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3104
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3104
-
-vlan 3209
- description 3209-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3209
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3209
-
-vlan 3302
- description 3302-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3302
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3302
-
-vlan 3311
- description 3311-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3311
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3311
-
-vlan 3370
- description 3370-4020
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3370
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3370
-
-vlan 3389
- description 3389-4020
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3389
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3389
-
-vlan 3709
- description 3709-3681
-
-interface Ethernet0/0/12
- port link-type trunk
-port trunk allow-pass vlan 3709
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3709
-
-vlan 3710
- description 3710-3681
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3710
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3710
-
-vlan 3711
- description 3711-3681
-
-interface Ethernet0/0/5
- port link-type trunk
-port trunk allow-pass vlan 3711
-
-interface Ethernet0/0/26
- port link-type trunk
-port trunk allow-pass vlan 3711
-
-vlan 301
- description Uprava_301
+ port trunk allow-pass vlan 4 300 3143 3150 3151 3154 3176 3246 3384 3461
+vlan 300
+ description Uprava_300
 
-interface Vlanif 301
+interface Vlanif 300
  ip address 3.3.3.3 24
 
 ip route-static 0.0.0.0 0.0.0.0 3.3.3.1
 
-sysname 301
+sysname lasdkfjklsdfjksdhd
 
 clock timezone prm add 05:00:00
 ntp-service server disable
