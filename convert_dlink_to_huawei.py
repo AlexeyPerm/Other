@@ -131,7 +131,7 @@ with open('import.txt', 'r') as data, open('result.txt', 'a') as dst:
                     dst.write(trunk(numbers, tag))
             elif '-' in line:
                 for numbers in int_number.split('-'):
-                    dst.write(access(numbers, tag))
+                    dst.write(trunk(numbers, tag))
             else:
                 dst.write(trunk(int_number, tag))
     dst.write(uplink(intf_uplink, vlan_tags))

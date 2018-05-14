@@ -6,40 +6,19 @@ vlan 300
  description Uprava_300
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 300
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 300
 
 interface Ethernet0/0/10
- port link-type access
- port default vlan 300
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 300
 
 vlan 3143
  description 3143-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3143
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3143
 
 interface Ethernet0/0/1
  port link-type access
@@ -56,15 +35,8 @@ vlan 3150
  description 3150-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3150
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3150
 
 interface Ethernet0/0/2
  port link-type access
@@ -81,15 +53,8 @@ vlan 3151
  description 3151-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3151
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3151
 
 interface Ethernet0/0/3
  port link-type access
@@ -106,15 +71,8 @@ vlan 3154
  description 3154-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3154
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3154
 
 interface Ethernet0/0/4
  port link-type access
@@ -131,15 +89,8 @@ vlan 3176
  description 3176-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3176
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3176
 
 interface Ethernet0/0/5
  port link-type access
@@ -156,15 +107,8 @@ vlan 3246
  description 3246-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3246
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3246
 
 interface Ethernet0/0/6
  port link-type access
@@ -181,15 +125,8 @@ vlan 3384
  description 3384-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3384
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3384
 
 interface Ethernet0/0/7
  port link-type access
@@ -206,15 +143,8 @@ vlan 3461
  description 3461-4000
 
 interface Ethernet0/0/9
- port link-type access
- port default vlan 3461
- loopback-detect recovery-time 300
- loopback-detect enable
- bpdu disable
- storm-control broadcast min-rate 500 max-rate 500
- storm-control multicast min-rate 500 max-rate 500
- storm-control action error-down
- storm-control enable log
+ port link-type trunk
+port trunk allow-pass vlan 3461
 
 interface Ethernet0/0/8
  port link-type access
@@ -227,7 +157,7 @@ interface Ethernet0/0/8
  storm-control action error-down
  storm-control enable log
 
-interface fa0/2
+interface 2fa0/2
  description uplink
  port link-type trunk
  port trunk allow-pass vlan 4 300 3143 3150 3151 3154 3176 3246 3384 3461
@@ -239,7 +169,7 @@ interface Vlanif 300
 
 ip route-static 0.0.0.0 0.0.0.0 3.3.3.1
 
-sysname lasdkfjklsdfjksdhd
+sysname asdasd
 
 clock timezone prm add 05:00:00
 ntp-service server disable
