@@ -31,6 +31,15 @@ intf_uplink = input('Введите uplink: ')  # Вводится имя uplink
 systemname = ('\nsysname ' + (input('Введите sysname:  ')))
 vlan_tags = []
 
+# def interface_split(line):
+#     global numbers
+#     int_number = line.strip().split(' ')[5]
+#     if ',' in int_number:
+#         for numbers in int_number.split(','):
+#     elif '-' in line:
+#         for numbers in int_number.split('-'):
+#     return numbers
+
 
 def vlans_list(vlan_number, descr):
     result = (f"\nvlan {vlan_number}\n"
