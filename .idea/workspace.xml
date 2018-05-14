@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/huawei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huawei.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/convert_dlink_to_huawei.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_dlink_to_huawei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import.txt" beforeDir="false" afterPath="$PROJECT_DIR$/import.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +17,10 @@
       <file leaf-file-name="convert_dlink_to_huawei.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/convert_dlink_to_huawei.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="118">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" />
-                <element signature="e#104#546#0" />
                 <element signature="e#564#1024#0" />
               </folding>
             </state>
@@ -89,12 +84,12 @@
       <list>
         <option value="$PROJECT_DIR$/confvertor dlink to huawei.py" />
         <option value="$PROJECT_DIR$/convert dlink to huawei.py" />
-        <option value="$PROJECT_DIR$/hua_test.py" />
         <option value="$PROJECT_DIR$/convert_dlink_ to_huawei.py" />
         <option value="$PROJECT_DIR$/import.txt" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/convert_dlink_to_huawei.py" />
         <option value="$PROJECT_DIR$/result.txt" />
+        <option value="$PROJECT_DIR$/hua_test.py" />
+        <option value="$PROJECT_DIR$/convert_dlink_to_huawei.py" />
       </list>
     </option>
   </component>
@@ -227,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526280279278</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="допиливание">
+      <created>1526281663149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526281663149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -243,12 +245,12 @@
     <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.1654373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.1654373" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32942554" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.26143023" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32942554" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32942554" />
       <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -303,7 +305,6 @@
           <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#104#546#0" />
             <element signature="e#564#1024#0" />
           </folding>
         </state>
@@ -325,7 +326,6 @@
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#104#546#0" />
             <element signature="e#564#1024#0" />
           </folding>
         </state>
@@ -384,7 +384,6 @@
           <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#104#546#0" />
             <element signature="e#564#1024#0" />
           </folding>
         </state>
@@ -396,7 +395,6 @@
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#104#546#0" />
             <element signature="e#564#1024#0" />
           </folding>
         </state>
@@ -430,10 +428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hua_test.py">
+    <entry file="file://$PROJECT_DIR$/result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="190">
+          <caret line="233" column="8" lean-forward="true" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -444,20 +442,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result.txt">
+    <entry file="file://$PROJECT_DIR$/hua_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="233" column="8" lean-forward="true" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
+        <state relative-caret-position="-88">
+          <caret line="111" column="57" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/convert_dlink_to_huawei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="118">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" />
-            <element signature="e#104#546#0" />
             <element signature="e#564#1024#0" />
           </folding>
         </state>
