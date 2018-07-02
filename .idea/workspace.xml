@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/checkio/popular-words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkio/even-last.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkio/most-numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkio/secret-message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Rustok.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Rustok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/huawei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huawei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkio/Between Markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkio/Between Markers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="popular-words.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checkio/popular-words.py">
+      <file leaf-file-name="even-last.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkio/even-last.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state>
+              <caret selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secret-message.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkio/secret-message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -80,6 +93,9 @@
         <option value="$PROJECT_DIR$/py.checkio.org.py" />
         <option value="$PROJECT_DIR$/checkio/Between Markers.py" />
         <option value="$PROJECT_DIR$/checkio/popular-words.py" />
+        <option value="$PROJECT_DIR$/checkio/most-numbers.py" />
+        <option value="$PROJECT_DIR$/checkio/even-last.py" />
+        <option value="$PROJECT_DIR$/checkio/secret-message.py" />
       </list>
     </option>
   </component>
@@ -95,6 +111,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="checkio" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -106,45 +139,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
-              <item name="checkio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (Other) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (Other) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="config vlan voice_vlan-35 add tagged 5,22" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/python.exe" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -171,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.popular-words">
+  <component name="RunManager" selected="Python.secret-message">
     <configuration name="Between Markers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +191,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="even-last" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +199,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/even-last.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="most-numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="huawei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/most-numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +245,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.checkio.org" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="secret-message" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,48 +253,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\kotov.av\PycharmProjects\Other\checkio\First Word.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="huawei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/secret-message.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.excel" />
-      <item itemvalue="Python.py.checkio.org" />
       <item itemvalue="Python.Between Markers" />
       <item itemvalue="Python.popular-words" />
+      <item itemvalue="Python.most-numbers" />
+      <item itemvalue="Python.even-last" />
+      <item itemvalue="Python.secret-message" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.secret-message" />
+        <item itemvalue="Python.even-last" />
+        <item itemvalue="Python.most-numbers" />
         <item itemvalue="Python.popular-words" />
         <item itemvalue="Python.Between Markers" />
-        <item itemvalue="Python.py.checkio.org" />
-        <item itemvalue="Python.excel" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -355,51 +356,51 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1014" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info id="DB Browser" weight="0.32982087" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50054646" side_tool="true" weight="0.49733335" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.33997655" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.27549824" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.11064278" />
-      <window_info id="Project Explorer" weight="0.32982087" />
-      <window_info id="Job Explorer" weight="0.32982087" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50105375" side_tool="true" weight="0.26815644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.33966482" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.26815644" />
       <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5580305" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5575419" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="DB Browser" order="2" weight="0.32982087" />
+      <window_info id="Project Explorer" order="2" weight="0.32982087" />
+      <window_info id="Job Explorer" order="2" weight="0.32982087" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.1654373" />
       <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32942554" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26143023" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976552" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.26143023" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -419,7 +420,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="78" />
+      <option name="time" value="81" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -432,13 +433,17 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/checkio/popular-words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,8 +677,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkio/popular-words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="399">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/most-numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/even-last.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/secret-message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
