@@ -8,7 +8,6 @@ while True:
         # вводим айпишник и разбираем его на состовляющие: ip, prefix, gateway
         ip_interface = ipaddress.IPv4Interface(input('Введите IP-сети в формате 10.1.1.0/24: '))
         ip, prefix, gateway = ip_interface.ip, ip_interface._prefixlen, ip_interface.network.network_address + 1
-        # print(ip, prefix, gateway)
     except ipaddress.AddressValueError:
         print('Некорректный ip. Введите заново')
     else:
