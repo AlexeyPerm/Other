@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="парсер .xls">
+    <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/checkio/popular-words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkio/Between Markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkio/Between Markers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="py.checkio.org.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py.checkio.org.py">
+      <file leaf-file-name="popular-words.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkio/popular-words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -76,6 +78,8 @@
         <option value="$PROJECT_DIR$/excel.py" />
         <option value="$PROJECT_DIR$/venv/py.checkio.org.py" />
         <option value="$PROJECT_DIR$/py.checkio.org.py" />
+        <option value="$PROJECT_DIR$/checkio/Between Markers.py" />
+        <option value="$PROJECT_DIR$/checkio/popular-words.py" />
       </list>
     </option>
   </component>
@@ -109,6 +113,26 @@
               <item name="Other" type="b2602c69:ProjectViewProjectNode" />
               <item name="Other" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="checkio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (Other) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (Other) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,7 +144,7 @@
     <property name="last.edited.regexp" value="config vlan voice_vlan-35 add tagged 5,22" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -131,6 +155,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kotov.av\PycharmProjects\Other\checkio" />
       <recent name="C:\Users\kotov.av\PycharmProjects\Other" />
     </key>
   </component>
@@ -146,8 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py.checkio.org">
-    <configuration name="convert_dlink_to_huawei" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.popular-words">
+    <configuration name="Between Markers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_dlink_to_huawei.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/Between Markers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,6 +203,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="popular-words" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="huawei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/popular-words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,17 +263,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.convert_dlink_to_huawei" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.excel" />
       <item itemvalue="Python.py.checkio.org" />
+      <item itemvalue="Python.Between Markers" />
+      <item itemvalue="Python.popular-words" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.popular-words" />
+        <item itemvalue="Python.Between Markers" />
         <item itemvalue="Python.py.checkio.org" />
         <item itemvalue="Python.excel" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.convert_dlink_to_huawei" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526967821061</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="checkio">
+      <created>1530505461579</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530505461579</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -303,7 +355,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1014" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
@@ -311,15 +363,15 @@
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50054646" side_tool="true" weight="0.49733335" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.33997655" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3288948" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.4419695" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.27549824" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.11064278" />
       <window_info id="Project Explorer" weight="0.32982087" />
       <window_info id="Job Explorer" weight="0.32982087" />
       <window_info anchor="bottom" id="Console" />
       <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.56" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5580305" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -359,14 +411,15 @@
     <MESSAGE value="result.txt" />
     <MESSAGE value="допиливание" />
     <MESSAGE value="парсер .xls" />
-    <option name="LAST_COMMIT_MESSAGE" value="парсер .xls" />
+    <MESSAGE value="checkio" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="73" />
+      <option name="time" value="78" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -609,10 +662,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py.checkio.org.py">
+    <entry file="file://$PROJECT_DIR$/checkio/First Word.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/Between Markers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/popular-words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
