@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/checkio/index-power.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkio/three-words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/huawei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huawei.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkio/right-to-left.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkio/index-power.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkio/index-power.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index-power.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-power.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkio/index-power.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right-to-left.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkio/right-to-left.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -84,6 +95,7 @@
         <option value="$PROJECT_DIR$/checkio/Three Words.py" />
         <option value="$PROJECT_DIR$/checkio/three-words.py" />
         <option value="$PROJECT_DIR$/checkio/index-power.py" />
+        <option value="$PROJECT_DIR$/checkio/right-to-left.py" />
       </list>
     </option>
   </component>
@@ -121,6 +133,15 @@
               <item name="Other" type="b2602c69:ProjectViewProjectNode" />
               <item name="Other" type="462c0819:PsiDirectoryNode" />
               <item name="checkio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (Other) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.three-words">
+  <component name="RunManager" selected="Python.index-power">
     <configuration name="even-last" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +200,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="index-power" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="huawei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/index-power.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="most-numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,24 +231,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/most-numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="popular-words" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="huawei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/popular-words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,19 +273,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.popular-words" />
       <item itemvalue="Python.most-numbers" />
       <item itemvalue="Python.even-last" />
       <item itemvalue="Python.secret-message" />
       <item itemvalue="Python.three-words" />
+      <item itemvalue="Python.index-power" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.index-power" />
         <item itemvalue="Python.three-words" />
         <item itemvalue="Python.secret-message" />
         <item itemvalue="Python.even-last" />
         <item itemvalue="Python.most-numbers" />
-        <item itemvalue="Python.popular-words" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530545098023</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="checkio">
+      <created>1530691023087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530691023088</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,7 +390,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.2813599" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.11064278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.15384616" />
       <window_info id="Project Explorer" weight="0.32982087" />
       <window_info id="Job Explorer" weight="0.32982087" />
       <window_info anchor="bottom" id="Console" />
@@ -448,13 +476,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkio/popular-words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -745,7 +766,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkio/index-power.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/right-to-left.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
