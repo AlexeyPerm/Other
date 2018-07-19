@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/checkio/Home/Non-unique Elements.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/huawei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huawei.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkio/Home/The Most Wanted Letter.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkio/Home/The Most Wanted Letter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkio/Home/Non-unique Elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkio/Home/Non-unique Elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Non-unique Elements.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkio/Home/Non-unique Elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="House Password.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkio/Home/House Password.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,15 +38,10 @@
       <file leaf-file-name="The Most Wanted Letter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkio/Home/The Most Wanted Letter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Non-unique Elements.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checkio/Home/Non-unique Elements.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -138,22 +142,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
               <item name="checkio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
               <item name="checkio" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -161,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.The Most Wanted Letter">
+  <component name="RunManager" selected="Python.Non-unique Elements">
     <configuration name="House Password" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="huawei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,6 +213,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/Home/House Password.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Non-unique Elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="huawei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio/Home" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkio/Home/Non-unique Elements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,38 +290,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="index-power" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="huawei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/checkio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\kotov.av\PycharmProjects\Other\checkio\Elementary\index-power.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.index-power" />
       <item itemvalue="Python.absolute-sorting" />
       <item itemvalue="Python.easy-unpack" />
       <item itemvalue="Python.House Password" />
       <item itemvalue="Python.The Most Wanted Letter" />
+      <item itemvalue="Python.Non-unique Elements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Non-unique Elements" />
         <item itemvalue="Python.The Most Wanted Letter" />
         <item itemvalue="Python.House Password" />
         <item itemvalue="Python.easy-unpack" />
         <item itemvalue="Python.absolute-sorting" />
-        <item itemvalue="Python.index-power" />
       </list>
     </recent_temporary>
   </component>
@@ -407,42 +411,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.16280295" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.10906217" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50105375" side_tool="true" weight="0.26815644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.33743018" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273743" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.47597766" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" weight="0.33880422" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" visible="true" weight="0.4771395" />
       <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32834226" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.55530727" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5556858" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.33880422" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497208" visible="true" weight="0.10906217" />
-      <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="DB Browser" order="2" weight="0.32982087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
-      <window_info id="DB Browser" order="2" weight="0.32982087" />
       <window_info id="Project Explorer" order="2" weight="0.32982087" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5556858" />
       <window_info id="Job Explorer" order="2" weight="0.32982087" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50105375" side_tool="true" weight="0.26815644" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49894625" weight="0.4771395" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -760,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkio/Home/House Password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python3/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -788,15 +774,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/checkio/Home/House Password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/checkio/Home/The Most Wanted Letter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="323">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkio/Home/Non-unique Elements.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
