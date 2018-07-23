@@ -1,28 +1,6 @@
-import time
+from vcf_parser import VCFParser
 
+my_parser = VCFParser(infile='00001.vcf', split_variants=True, check_info=True)
 
-def timer(f):
-    def tmp(*args, **kwargs):
-        t = time.time()
-        res = f(*args, **kwargs)
-        print ("Время выполнения функции: %f" % (time.time()-t))
-        return res
-
-    return tmp
-
-
-def pause(f):
-    def tmp(*args, **kwargs):
-        time.sleep(1)
-        return f(*args, **kwargs)
-
-    return tmp
-
-
-@timer
-@pause
-def func(x, y):
-    return x + y
-
-
-func(1, 2)
+for variant in my_parser:
+    print(variant)

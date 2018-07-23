@@ -1,9 +1,21 @@
 def long_repeat(line):
-    """
-        length the longest substring that consists of the same char
-    """
-    # your code here
-    return 0
+    count = 1
+    result = []
+    if len(line) > 2:
+        for k in range(len(line) - 1):
+            if line[k] == line[k + 1]:
+                count += 1
+            else:
+                result.append(count)
+                count = 1
+        return max(result)
+    elif len(line) == 2 and line[0] == line[1]:
+        return 2
+    elif len(line) == 1:
+        return 1
+    else:
+        return 0
+
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
