@@ -1,5 +1,6 @@
 def checkio(data: list) -> list:
-    return list(filter(lambda x: data.count(x) > 1, data))
+
+    return data
 
 
 if __name__ == "__main__":
