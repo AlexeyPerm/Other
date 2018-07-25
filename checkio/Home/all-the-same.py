@@ -1,9 +1,8 @@
 from typing import List, Any
+
+
 def all_the_same(elements: List[Any]) -> bool:
-
     return 0 <= len(set(elements)) <= 1
-
-
 
 
 if __name__ == '__main__':
