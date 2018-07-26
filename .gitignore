@@ -9,3 +9,4 @@ pyvenv.cfg
 venv
 import.txt
 test.py
+*.vcf
