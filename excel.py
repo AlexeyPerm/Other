@@ -1,35 +1,17 @@
 import xlrd
-import subprocess
-import telnetlib
+from pprint import pprint
 
-# from tabulate import tabulate
-# from pprint import pprint
+vlans_xls = 'C:\\Users\\**\\Documents\\Миграция\\upper_vlan.xlsx'
+source_xls = 'C:\\Users\\**\\Documents\\Миграция\\**.xlsx'
 
-rb = xlrd.open_workbook('text.xlsx')
-sheet = rb.sheet_by_index(0)
-vals = [sheet.row_values(rownum) for rownum in range(sheet.nrows)]
-head = vals[0]
-vals.pop(0)
-# result = []
-ip = vals[2][4]
+vlans_list = xlrd.open_workbook(vlans_xls).sheet_by_index(0)
+source_list = xlrd.open_workbook(source_xls).sheet_by_index(0)
 
-
-def tracert(ip_address = '178.161.240.2'):
-    print('Выполняется трассировка... ')
-    traceroute = subprocess.run(['traceroute','-f', '3', '-m', '4', '-q', '2', ip_address], stdout=subprocess.DEVNULL)
-    return traceroute
-
-print(tracert(ip))
-
-
-
-
-
-
-
-# result = {}
-# for line in vals:
-#     result[line[0]] = line[4].split()
-
-# 'traceroute','-f', '3', '-m', '4', '-q', '2'   (-f с третьего хопа, -m до 4 хопа, -q кол-во проб)
-subprocess.run(['traceroute','-f', '3', '-m', '4', '-q', '2', vals[1][4]])
+with open('text.txt', 'w') as dst_file:
+    for ip_address in range(1, source_list.nrows):
+        # print(source_list.cell_value(ip_address, 4))
+        for upper_vlan in range(1, vlans_list.nrows):
+            # print('{}\t{}'.format(source_list.cell_value(ip_address, 4), vlans_list.cell_value(upper_vlan, 0)))
+            if source_list.cell_value(ip_address, 4) == vlans_list.cell_value(upper_vlan, 0):
+                dst_file.write(f'{source_list.cell_value(ip_address, 4)}\t\t'
+                               f'{int(vlans_list.cell_value(upper_vlan, 1))}\n')
