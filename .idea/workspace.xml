@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4049db3d-550b-4e21-a66d-b39d988a785c" name="Default" comment="checkio">
-      <change afterPath="$PROJECT_DIR$/checkio/Home/the-warriors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/huawei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huawei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkio/Home/x-o-referee.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkio/Home/x-o-referee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-175339284">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="135" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="12" />
+          <entry key="py" value="123" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Other" />
@@ -58,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+            <state relative-caret-position="165">
+              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -148,8 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="998" />
   </component>
@@ -208,11 +241,6 @@
               <item name="Other" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="Other" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="convert_dlink_to_huawei.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -222,7 +250,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="asd2131asd" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -524,7 +552,7 @@
     <frame x="960" y="0" width="960" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4922711" visible="true" weight="0.37111112" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4922711" weight="0.32333332" />
       <window_info id="Structure" order="1" sideWeight="0.50502795" side_tool="true" weight="0.24973656" />
       <window_info id="DB Browser" order="2" weight="0.32982087" />
       <window_info id="Project Explorer" order="3" weight="0.32982087" />
@@ -532,15 +560,15 @@
       <window_info id="Favorites" order="5" sideWeight="0.5077289" side_tool="true" weight="0.29555556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.41141498" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.5231867" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Console" order="5" />
       <window_info anchor="bottom" id="DB Execution Console" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905483" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32818073" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50105375" side_tool="true" weight="0.2672112" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" x="871" y="509" width="938" height="253" id="Run" order="10" sideWeight="0.49945354" weight="0.31271878" />
+      <window_info active="true" anchor="bottom" x="871" y="509" width="938" height="253" id="Run" order="10" sideWeight="0.49945354" visible="true" weight="0.3115339" />
       <window_info anchor="bottom" x="8" y="31" width="944" height="959" id="Python Console" order="11" sideWeight="0.49894625" type="WINDOWED" weight="0.4054697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -630,6 +658,11 @@
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
       <expression>
+        <expression-string>50</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>0</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -642,9 +675,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkio/Elementary/Three Words.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkio/Elementary/the-most-frequent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -782,25 +812,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python3/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="1069" lean-forward="true" selection-start-line="1069" selection-end-line="1069" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hua_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convert_dlink_to_huawei.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python3/Lib/os.py" />
+    <entry file="file://$PROJECT_DIR$/hua_test.py" />
     <entry file="file://$PROJECT_DIR$/checkio/Home/x-o-referee.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -815,46 +828,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2107685931/sys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python3/Lib/calendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2107685931/sys.py" />
+    <entry file="file://C:/Python3/Lib/calendar.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9387" />
       </provider>
     </entry>
-    <entry file="file://C:/Python3/Lib/test/test_descr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="240" column="16" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2107685931/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <caret line="1071" lean-forward="true" selection-start-line="1071" selection-end-line="1071" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python3/Lib/test/test_enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="1131" column="16" selection-start-line="1131" selection-start-column="16" selection-end-line="1131" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python3/Lib/test/test_descr.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2107685931/builtins.py" />
+    <entry file="file://C:/Python3/Lib/test/test_enum.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-476">
@@ -870,82 +853,44 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2107685931/array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1586">
-          <caret line="52" column="71" lean-forward="true" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2107685931/array.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/xlsx.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/xlsx.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/book.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Column.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Worksheet.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Workbook.py" />
+    <entry file="file://C:/Python3/Lib/codecs.py" />
+    <entry file="file://C:/Python3/Lib/ipaddress.py" />
+    <entry file="file://$PROJECT_DIR$/convert_dlink_to_huawei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/book.py">
+    <entry file="file://$PROJECT_DIR$/../../Миграция/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3785">
-          <caret line="456" column="22" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Column.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Worksheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="702" column="63" selection-start-line="702" selection-start-column="58" selection-end-line="702" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="105">
+          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="160">
           <caret line="414" selection-start-line="414" selection-end-line="414" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python3/Lib/ipaddress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="1412" column="26" lean-forward="true" selection-start-line="1412" selection-start-column="26" selection-end-line="1412" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        <state relative-caret-position="165">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
         </state>
       </provider>
     </entry>
