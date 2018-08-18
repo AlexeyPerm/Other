@@ -5,7 +5,7 @@ Scripts
 pyvenv.cfg
 .git
 *.xml
-.idea/*.xml
+.idea
 venv
 import.txt
 test.py
