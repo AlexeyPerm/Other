@@ -1,6 +1,2 @@
-*.xml
 .idea
-*.iml
-*.pyc
 venv
-.editorconfig
