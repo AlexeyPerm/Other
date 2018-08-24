@@ -14,3 +14,4 @@ with open('result.txt', 'w') as dst_file:
         for upper_vlan in range(1, vlans_list.nrows):
             if source_list.cell_value(ip_address, 4) == vlans_list.cell_value(upper_vlan, 0):
                 dst_file.write(f'\t{int(vlans_list.cell_value(upper_vlan, 1))}')
+                break
