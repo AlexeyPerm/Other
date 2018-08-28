@@ -1,9 +1,12 @@
 # Скрипт для поиска верхнего влана по айпишнику коммутатора.
 
 import xlrd
+from sys import argv
 
 vlans_xls = 'C:\\Users\\**\\Documents\\Миграция\\upper_vlan.xlsx'
-source_xls = 'C:\\Users\\**\\Documents\\Миграция\\**.xlsx'
+source_xls = argv[1]    # В качестве аргумена указывается название файлика .xlsx
+#source_xls = 'C:\\Users\\**\\Documents\\Миграция\\**.xlsx'
+
 
 vlans_list = xlrd.open_workbook(vlans_xls).sheet_by_index(0)
 source_list = xlrd.open_workbook(source_xls).sheet_by_index(0)
